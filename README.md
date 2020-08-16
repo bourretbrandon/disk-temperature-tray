@@ -13,9 +13,9 @@ Written in Perl using Gtk2 and libappindicator
 
 Prerequisites for Linux System:
 
- - Gtk2, libappindicator, Perl, and smartctl (and its dependencies)
+ - Gtk2, libappindicator, and smartctl (and its dependencies)
 
-Prerequisites (modules) for Perl:
+Prerequisites for Perl (only needed if you don't want to run the pre-compiled executable):
  
  - File::Spec
  
@@ -35,9 +35,11 @@ Usage:
 
 - sudo disk-temp-tray [block device] (or sudo disk-temp-tray.pl [block device])
 
-- sudo disk-temp-tray /dev/sda (or sudo disk-temp-tray.pl /dev/sda)
+Examples:
 
-- sudo disk-temp-tray /dev/nvme0n1 (or sudo disk-temp-tray.pl /dev/nvme0n1)
+- sudo disk-temp-tray /dev/sda
+
+- sudo disk-temp-tray /dev/nvme0n1
 
 I develop using ActivePerl (don't laugh, it's rapid development!) and "compile" with ActiveState's Perl Dev Kit (PDK).
 
