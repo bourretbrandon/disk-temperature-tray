@@ -1,6 +1,8 @@
 # disk-temperature-tray
 SMART Disk Temperature Tray/App-Indicator for Linux
 
+Brandon Bourret - phatwares@cpan.org
+
 A very basic tray app indicator to monitor SMART disk temperature. I have a gaming laptop, and the recommended max temperature for my
 NVME & SSD devices is around 70°C. However, the GPU and CPU can run as high as 90°C while playing some games. Even with fans and cooling
 pads, it can get fairly hot inside the laptop, and this heat can bleed over into other components. So I decided I'd like to see the
